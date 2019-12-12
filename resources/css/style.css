@@ -7,7 +7,7 @@
 html{
   background-color: #fff;
   text-color: #555;
-  font-family: 'Lato, Árial', 'sans-serif';
+  font-family: 'Lato', 'Árial', 'sans-serif';
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -32,17 +32,48 @@ header {
   transform:  translate(-50%, -50%);
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
 h1 {
   margin: 0;
   color: #fff;
   font-size: 200%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   word-spacing: 4px;
   margin-bottom: 20px;
   margin-top: 0;
+
 }
+
+h2 {
+  font-size: 150%;
+  margin-bottom: 30px;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #e67e22;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+
 
 .btn:link,
 .btn:visited {
@@ -115,6 +146,34 @@ h1 {
 
 .main-nav li a:hover,
 .main-nav li a:active{
-  border-bottom: 2px solid #e67e22;;
+  border-bottom: 2px solid #e67e22;
 
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* Paragraph */
+.long-copy {
+  line-height:  145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+/*icons */
+
+.icon-big {
+  display: block;
+  color: #e67e22;
+  font-size: 350%;
+  margin-bottom: 10px;
+}
+
+/* features */
+
+.box p {
+  font-size: 90%;
+  padding: 1%;
+  line-height: 145%;
 }
