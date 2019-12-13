@@ -23,6 +23,7 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -320,4 +321,45 @@ section {
   vertical-align: middle;
   margin-top: -5px;
   margin-right: 10px;
+}
+
+
+
+/* Customer Testimonials */
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: relative;
+  top:3px;
+  left: 0px;
+}
+
+blockquote{
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+
 }
