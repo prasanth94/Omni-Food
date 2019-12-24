@@ -144,6 +144,8 @@ input[type=submit]:hover {
   color: #fff;
 }
 
+/* navigation */
+
 .logo {
   height: 100px;
   width: auto;
@@ -161,13 +163,14 @@ input[type=submit]:hover {
 }
 
 .main-nav {
-  margin-top: 45px;
+    float: right;
+    list-style: none;
+    margin-top: 55px;
 }
 
-.main-nav li  {
-  display: inline-block;
-  margin-right: 40px;
-  float: right;
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
 }
 
 .main-nav li a:link,
@@ -185,6 +188,18 @@ input[type=submit]:hover {
 .main-nav li a:active{
   border-bottom: 2px solid #e67e22;
 
+}
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
 }
 
 .sticky {
